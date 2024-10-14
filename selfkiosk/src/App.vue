@@ -15,16 +15,12 @@
         Assistance
       </a>
     </div>
-  </nav>
-
-  <section class="section_frame">
-    <button to="/about" class="startscan_icon">Start</button>
     <div>
-      <button class="ownpackage_icon">Egen Pose</button>
-      <button class="newsletter_icon">Nyhedsavis</button>
-    </div>
-  </section>
 
+    </div>
+<!--    <router-link to="/">Home</router-link> |-->
+<!--    <router-link to="/about">About</router-link>-->
+  </nav>
   <router-view/>
 </template>
 
@@ -90,56 +86,6 @@
   margin-left: 73%;
 }
 
-.section_frame{
-  margin-top: 10%;
-  margin-left: 25%;
-  width: 50%;
-  height: 50%;
-  border: 1px white solid;
-  flex-direction: column;
-}
-
-.startscan_icon{
-  width: 500px;
-  height: 250px;
-  background-color: #00b3ff;
-  margin-bottom: 5%;
-  color: white;
-  font-weight: bolder;
-  font-size: 100px;
-  border-radius: 25px;
-}
-
-.ownpackage_icon{
-  width: 200px;
-  height: 150px;
-  background-color: #00b3ff;
-  color: white;
-  font-weight: bolder;
-  font-size: 25px;
-  border-radius: 25px;
-}
-
-.newsletter_icon{
-  width: 200px;
-  height: 150px;
-  background-color: #00b3ff;
-  color: white;
-  font-weight: bolder;
-  font-size: 25px;
-  margin-left: 10%;
-  border-radius: 25px;
-}
-
-.barcode_logo_container{
-  height: 40px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
 </style>
 <script setup lang="ts">
 </script>
-
-<!--    <router-link to="/">Home</router-link> |-->
-<!--    <router-link to="/about">About</router-link>-->
